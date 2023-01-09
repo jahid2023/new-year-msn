@@ -1,0 +1,152 @@
+/* Banner section start in header */
+.banner{
+    height: 500px;
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* Banner items */
+.btn{
+    border: gray;
+    background-color: rgb(211, 60, 0);
+    height: 30px;
+    border-radius: 5px;
+}
+.banner-title{
+    position: absolute;
+    width: 400px;
+    height: 180px;
+    left: 700px;
+    top: 100px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    
+    font-size: 35px;
+    line-height: 45px;
+    text-align: right;
+    color: #151414;
+    justify-content: right;
+   
+}
+/* Content section start */
+
+.content{
+    background: rgb(27, 27, 27)45, 35, 35);
+    background-image: url('../images/person.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:left;
+    height: 600px;
+    left: 206px;
+    top: 800px;
+    margin-top:80px;
+    justify-content:left;
+
+/* Content Description */
+}
+.description{
+  
+    font-family: 'Work Sans';
+    font-style: normal;
+    
+    font-size: 18px;
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 700px;
+    top: 800px;
+    
+    /*Habit section start  */
+    /* Next Year Plan start */
+}
+.habit-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.habit-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.habit-description{
+    color: #151414;
+}
+
+.plan-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.habit{
+    background: white
+    box-shadow: 0px 6px 50px;
+    border-radius: 5px;
+    width: 200px;
+}
+/* Gradient start */
+.gradient{
+   
+    margin-top: 80px;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 100px;
+    height: 200px;
+    left: 230px;
+    right: 230px;
+    background: linear-gradient(90deg, #020202 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    background-image: url('../images/gradient3.png');
+    display: flex;
+    align-items: center;
+}
+/* items in gradient */
+.contact-section{
+    display: flex;
+}
+.contact-menu{
+    margin-left: 35px;
+    width: 200px;
+    
+}
+.contact-btn{
+    background-color: blue;
+    color: aliceblue;
+}
+.main{
+    margin-bottom: 80px;
+}
+/* Footer section start */
+.footer{
+    height:300px;
+    background: #020202;
+    color: wheat;
+    margin-top: 400px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer items */
+.footer-left{
+padding-right: 200px;
+text-align: left;
+width: 280px;
+}
+.footer-btn{
+    color: red;
+    margin-top: 5px;
+    
+}
+.footer-right{
+    padding-top: 0;
+    margin-top: 0;
+    width: 280px;
+}
+/* Footer end */
